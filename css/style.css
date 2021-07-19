@@ -182,18 +182,27 @@ footer{
         transform: translateY(11px);
     }
 }
-@media(max-width:920px){
-    .title::after{
-        transform: translateY(14px);
-    }
-}
 @media(max-width:768px){
     .title::after{
-        transform: translateY(16px);
+        transform: translateY(15px);
+    }
+    .promo-title{
+    font-size: 35px;
+}
+}
+@media(max-width:425px){
+    .title::after{
+        transform: translateY(21px);
+    }
+    #social-media p{
+    font-size: 30px;
+    }
+    .social-icons img{
+    width: 40px;
     }
 }
-@media(max-width:568px){
+@media(max-width:360px){
     .title::after{
-        transform: translateY(20px);
+        transform: translateY(24px);
     }
 }
